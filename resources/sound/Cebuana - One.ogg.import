@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Cebuana - One.ogg-436e41252fb02b7f46378ea2d63a22f1.oggstr"
+
+[deps]
+
+source_file="res://resources/sound/Cebuana - One.ogg"
+dest_files=[ "res://.import/Cebuana - One.ogg-436e41252fb02b7f46378ea2d63a22f1.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
