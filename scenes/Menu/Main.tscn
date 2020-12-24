@@ -1,7 +1,6 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://scenes/Menu/Main.gd" type="Script" id=1]
-[ext_resource path="res://resources/sound/Cebuana - One.ogg" type="AudioStream" id=2]
 [ext_resource path="res://scenes/Menu/Play_Button.gd" type="Script" id=3]
 [ext_resource path="res://scenes/Menu/Credits_Button.gd" type="Script" id=4]
 [ext_resource path="res://scenes/Menu/Options_Button.gd" type="Script" id=5]
@@ -101,11 +100,6 @@ align = 1
 __meta__ = {
 "_edit_lock_": true
 }
-
-[node name="AudioPlayer" type="AudioStreamPlayer" parent="."]
-stream = ExtResource( 2 )
-volume_db = -80.0
-autoplay = true
 [connection signal="pressed" from="Play_Button" to="Play_Button" method="_on_Play_Button_pressed"]
 [connection signal="pressed" from="Options_Button" to="Options_Button" method="_on_Options_Button_pressed"]
 [connection signal="pressed" from="Credits_Button" to="Credits_Button" method="_on_Credits_Button_pressed"]
