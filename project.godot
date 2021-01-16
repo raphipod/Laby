@@ -20,6 +20,7 @@ run/main_scene="res://scenes/Menu/Main.tscn"
 boot_splash/image="res://resources/labylogo.jpg"
 boot_splash/use_filter=false
 boot_splash/bg_color=Color( 0.141176, 0.141176, 0.141176, 1 )
+config/icon="res://icon.jpg"
 
 [debug]
 

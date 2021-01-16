@@ -45,10 +45,4 @@ script = ExtResource( 1 )
 __meta__ = {
 "_edit_lock_": true
 }
-
-[node name="ProgressBar" type="ProgressBar" parent="."]
-margin_left = 414.533
-margin_top = 119.246
-margin_right = 606.533
-margin_bottom = 159.246
 [connection signal="pressed" from="Back_Button" to="Back_Button" method="_on_Back_Button_pressed"]
