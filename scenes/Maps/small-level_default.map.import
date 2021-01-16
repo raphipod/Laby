@@ -1,0 +1,13 @@
+[remap]
+
+importer="qodot.map"
+type="Resource"
+path="res://.import/small-level_default.map-a99f5d4dbede526f8fd0824cfe4cebbc.tres"
+
+[deps]
+
+source_file="res://scenes/Maps/small-level_default.map"
+dest_files=[ "res://.import/small-level_default.map-a99f5d4dbede526f8fd0824cfe4cebbc.tres" ]
+
+[params]
+
