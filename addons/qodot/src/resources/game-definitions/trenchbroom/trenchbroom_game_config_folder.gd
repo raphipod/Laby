@@ -9,7 +9,7 @@ export(bool) var export_file : bool setget set_export_file
 export(String, DIR, GLOBAL) var trenchbroom_games_folder : String
 
 export(String) var game_name := "Qodot"
-export(Texture) var icon : Texture = preload("res://icon.png")
+export(Texture) var icon : Texture = preload("res://icon.jpg")
 export(Resource) var game_config_file : Resource = preload("res://addons/qodot/game_definitions/trenchbroom/qodot_trenchbroom_config_file.tres")
 export(Array, Resource) var fgd_files : Array = [
 	preload("res://addons/qodot/game_definitions/fgd/qodot_fgd.tres")
